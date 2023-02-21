@@ -1,0 +1,58 @@
+*{
+    margin: 10;
+    padding: 0%;
+}
+/*Barra de Navegacion*/
+ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+/*Items de la barra de navegacion*/
+li
+{
+    list-style: none;
+
+}
+a
+{
+    text-decoration: none;
+    color: gold;
+    
+}
+/*Logo Nav*/
+.container_logo
+{
+    height: 100px;
+    width: 100px;
+    
+}
+.logo
+{
+    width: 100%;
+    height: 100%;
+
+}
+.LogoTipa
+{
+ display: flex;   
+ justify-content: center;
+}
+
+
+.Titulo 
+{
+    justify-content: center;
+    align-items: center;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: gold;
+}
