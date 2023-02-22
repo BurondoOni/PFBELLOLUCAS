@@ -11,7 +11,7 @@
 <!-- NAV BAR -->
 <header>
     <nav>
-       <ul>
+       <ul class="NavBar">
             <li class="container_logo"><img class="logo"src="./Images/Logo Tipa.png" alt=""></li>
             <li><h2><a href="./Index.html">Inicio</a></h2></li>
             <li><a href="./pages/Login.html"><img src="./Images/Icono Login.png" alt=""></a></li>
@@ -29,16 +29,28 @@
 </header>
 
 <section class="LogoTipa">
-    <img src="./Images/Logo Tipa.png" alt="">
+    <img src="./Images/Logo Tipa.png" style="">
+    <style>
+    @media all and (max-width:1080px)
+    {
+        img
+        {
+            width: 100%;
+        }
+    }
+    </style>
 </section>
 
+
+
 <footer>
-    <article>
+    <span>
+        <p>
             ©Tipa Todos los derechos Reservados
             <br>
             Politica de Privacidad / Bases y Condiciones / Terminos y condiciones / Oportunidades Laborales
-    </article>
-
+        </p>
+    </span>
 </footer>
 
 </body>
