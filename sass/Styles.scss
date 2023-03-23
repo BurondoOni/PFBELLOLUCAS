@@ -1,6 +1,7 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
+@import "./partials/hero";
 
 @font-face {
     font-family: 'Andigo';
@@ -22,20 +23,20 @@
     font-size: 5px;
     }
     }
-    .LogoTipa{
-        display: flex;   
-        justify-content: center;
-        }
-        legend{
-        color: goldenrod;
-        font-weight: bold
-        }
-        fieldset{
-            justify-content: space-evenly;
-            background-color: black ;
-            color: gold;
-            border-color: gold;
-        } 
+.LogoTipa{
+    display: flex;   
+    justify-content: center;
+    }
+    legend{
+    color: goldenrod;
+    font-weight: bold
+    }
+    fieldset{
+        justify-content: space-evenly;
+        background-color: black ;
+        color: gold;
+        border-color: gold;
+    } 
 footer{
     display: flex;
     flex-direction: row;

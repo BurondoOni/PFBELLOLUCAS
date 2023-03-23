@@ -55,6 +55,11 @@ header .logo {
   height: 100%;
 }
 
+.hero {
+  background-image: url("//Images/Tipa03.png");
+  height: 90vh;
+}
+
 @font-face {
   font-family: "Andigo";
   src: url(../Fuentes/ANDIGO.ttf);
