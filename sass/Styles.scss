@@ -1,6 +1,7 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
+@import "./partials/footer";
 
 @font-face {
     font-family: 'Andigo';
@@ -22,14 +23,13 @@
     font-size: 5px;
     }
     }
+
+
 .LogoTipa{
     display: flex;   
     justify-content: center;
     }
-    legend{
-    color: goldenrod;
-    font-weight: bold
-    }
+    
 fieldset{
         align-content: center;
         justify-content: space-evenly;
@@ -40,7 +40,7 @@ fieldset{
 
 
 form{
-        width: 450px;
+        width: 500px;
         margin: auto;
         background: rgba(0, 0, 0, 0.4);
         padding: 10px 20px;
@@ -85,10 +85,4 @@ form{
     .tipero{
         color: gold;
     }
-    footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: black;
-    color: gold;
-}
+
