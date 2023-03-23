@@ -22,7 +22,20 @@
     font-size: 5px;
     }
     }
-
+    .LogoTipa{
+        display: flex;   
+        justify-content: center;
+        }
+        legend{
+        color: goldenrod;
+        font-weight: bold
+        }
+        fieldset{
+            justify-content: space-evenly;
+            background-color: black ;
+            color: gold;
+            border-color: gold;
+        } 
 footer{
     display: flex;
     flex-direction: row;
