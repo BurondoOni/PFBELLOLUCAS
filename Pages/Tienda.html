@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
-    <link rel="stylesheet" href="../CSS/Styles.css">
+    <link rel="stylesheet" href="../Sass/Styles.css">
 
+    <body>
+  
     <header>
-      <nav>
-          <ul>
+      <nav class="navbar">
+          <ul class="menu">
               <li class="container_logo"><img class="logo"src="../Images/Logo Tipa.png" alt=""></li>
               <li><h2><a href="../Index.html">Inicio</a></h2></li>
               <li><a href="./Login.html"><img src="../Images/Icono Login.png" alt=""></a></li>
@@ -24,78 +26,79 @@
               <li><h2><a href="./Nuestros-Lugares.html">Nuestros Lugares</a></h2></div></li>
               
           </ul>
-       </nav>
- </header>
+        </nav>
+      </header>
 
- <h1>Tienda Tipa</h1>
- <fieldset>
-<section class="TiendaTipa">
- <h2>Latas</h2>
- <select name="Tamaños" id="Tamaños">Talles
-  <option value=""></option> 
-   <option value="250Ml">250Ml</option>
-   <option value="330Ml">330Ml</option>
-   <option value="355Ml">355Ml</option>
- </select>
- <select name="Colores" id="Colores">Talles
-    <option value=""></option> 
-     <option value="Roja">Roja</option>
-     <option value="Negra">Negra</option>
-     <option value="Ipa">Ipa</option>
-   </select>
-   <select name="Cantidad" id="Cantidad">Talles
-    <option value=""></option> 
-     <option value="x6">x6</option>
-     <option value="x12">x12</option>
-     <option value="x24">x24</option>
-   </select>
- 
- <h2>Botellas</h2>
- <select name="Tamaños" id="Tamaños">
- <option value=""></option> 
- <option value="550Ml">550Ml</option>
- <option value="750Ml">750Ml</option>
- <option value="1Lt">1Lt</option>
- <option value="2Lt">2Lt</option>
- </select>
- <select name="Colores" id="Colores">Talles
-    <option value=""></option> 
-     <option value="Roja">Roja</option>
-     <option value="Negra">Negra</option>
-     <option value="Ipa">Ipa</option>
-   </select>
-   <select name="Cantidad" id="Cantidad">Talles
-    <option value=""></option> 
-     <option value="x6">x6</option>
-     <option value="x12">x12</option>
-     <option value="x24">x24</option>
-   </select>
- <h2>Barriles</h2>
- <select name="Tamaños" id="Tamaños">
- <option value=""></option>
- <option value="1Lt">1Lt</option>
- <option value="5Lt">5Lt</option>
- <option value="10Lt">10Lt</option> 
- </select>
- <select name="Colores" id="Colores">Talles
-    <option value=""></option> 
-     <option value="Roja">Roja</option>
-     <option value="Negra">Negra</option>
-     <option value="Ipa">Ipa</option>
-   </select>
-   <select name="Cantidad" id="Cantidad">Talles
-    <option value=""></option> 
-     <option value="x6">x6</option>
-     <option value="x12">x12</option>
-     <option value="x24">x24</option>
-   </select>
+<h1>Tienda Tipa</h1>
+
+      <fieldset>
+  <section class="TiendaTipa">
+    <h2>Latas</h2>
+      <select name="Tamaños" id="Tamaños">Talles
+        <option value=""></option> 
+        <option value="250Ml">250Ml</option>
+        <option value="330Ml">330Ml</option>
+        <option value="355Ml">355Ml</option>
+      </select>
+      <select name="Colores" id="Colores">Talles
+        <option value=""></option> 
+        <option value="Roja">Roja</option>
+        <option value="Negra">Negra</option>
+        <option value="Ipa">Ipa</option>
+      </select>
+      <select name="Cantidad" id="Cantidad">Talles
+        <option value=""></option> 
+        <option value="x6">x6</option>
+        <option value="x12">x12</option>
+        <option value="x24">x24</option>
+      </select>
+
+  <h2>Botellas</h2>
+    <select name="Tamaños" id="Tamaños">
+      <option value=""></option> 
+      <option value="550Ml">550Ml</option>
+      <option value="750Ml">750Ml</option>
+      <option value="1Lt">1Lt</option>
+      <option value="2Lt">2Lt</option>
+    </select>
+    <select name="Colores" id="Colores">Talles
+      <option value=""></option> 
+      <option value="Roja">Roja</option>
+      <option value="Negra">Negra</option>
+      <option value="Ipa">Ipa</option>
+    </select>
+    <select name="Cantidad" id="Cantidad">Talles
+      <option value=""></option> 
+      <option value="x6">x6</option>
+      <option value="x12">x12</option>
+      <option value="x24">x24</option>
+    </select>
+  <h2>Barriles</h2>
+    <select name="Tamaños" id="Tamaños">
+      <option value=""></option>
+      <option value="1Lt">1Lt</option>
+      <option value="5Lt">5Lt</option>
+      <option value="10Lt">10Lt</option> 
+    </select>
+    <select name="Colores" id="Colores">Talles
+      <option value=""></option> 
+      <option value="Roja">Roja</option>
+      <option value="Negra">Negra</option>
+      <option value="Ipa">Ipa</option>
+    </select>
+    <select name="Cantidad" id="Cantidad">Talles
+      <option value=""></option> 
+      <option value="x6">x6</option>
+      <option value="x12">x12</option>
+      <option value="x24">x24</option>
+    </select>
 <br>
 <br>
     <input type="submit" value="Comprar">
     <input type="reset" value="Borrar Informacion">
 </section>
-</fieldset>
- <br>
+      </fieldset>
+<br>
 
 <footer>
     <span>
@@ -108,4 +111,5 @@
 </footer>
 
 </body>
+
 </html>

@@ -1,0 +1,12 @@
+*{
+    margin: 10;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'andigo';
+    
+    &::selection {
+        background-color: black;
+        color: gold;
+    }
+
+}

@@ -1,0 +1,32 @@
+@import "./partials/variables";
+@import "./partials/reset";
+@import "./partials/header";
+
+@font-face {
+    font-family: 'Andigo';
+    src: url(../Fuentes/ANDIGO.ttf);
+}
+/*Mobile*/
+@media screen and (max-width: 819px) {
+    body{
+            background-color: #000000;
+    }
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    a{
+    font-size: 20px;
+    }
+    li{
+    font-size: 5px;
+    }
+    }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: gold;
+}
