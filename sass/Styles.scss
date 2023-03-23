@@ -1,7 +1,6 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
-@import "./partials/hero";
 
 @font-face {
     font-family: 'Andigo';
@@ -31,13 +30,62 @@
     color: goldenrod;
     font-weight: bold
     }
-    fieldset{
+fieldset{
+        align-content: center;
         justify-content: space-evenly;
         background-color: black ;
         color: gold;
         border-color: gold;
-    } 
-footer{
+    }
+
+
+form{
+        width: 450px;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 150px;
+        border-radius: 10px;
+
+        h2{
+            color: #000;
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        input, textarea{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 17px;
+            border: none;
+        }
+
+        textarea{
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%;
+        }
+        
+        .boton{
+            background: #31384a;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        #boton:hover{
+            cursor: pointer;
+        }
+    }
+    
+    .tipero{
+        color: gold;
+    }
+    footer{
     display: flex;
     flex-direction: row;
     align-items: center;
