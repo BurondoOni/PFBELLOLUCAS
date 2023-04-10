@@ -164,11 +164,13 @@ form #boton:hover {
 }
 
 .TiendaTipa {
+  text-align: center;
   padding: 12px 20px;
   margin: 20px;
-  display: inline-block;
-  border: 1px solid goldenrod;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: gold;
+}
+
+.mapas {
+  text-align: center;
+  padding: 12px 20px;
+  margin: 20px;
 }/*# sourceMappingURL=Styles.css.map */
