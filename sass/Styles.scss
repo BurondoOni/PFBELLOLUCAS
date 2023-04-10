@@ -41,7 +41,15 @@ fieldset{
         border-color: gold;
     }
 
+.Titulo{
+    text-align: center;
+    color: gold;
+    background-color: black;
+}
 
+.tipaFondo{
+align-content: center;
+}
 form{
         width: 500px;
         margin: auto;
@@ -86,6 +94,14 @@ form{
     }
     
     .tipero{
-        color: gold;
+        padding: 12px 20px;
+	    margin: 8px 0;
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	    box-sizing: border-box; 
+        color: gold
+
+    
     }
 

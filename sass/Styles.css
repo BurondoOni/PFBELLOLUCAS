@@ -60,7 +60,7 @@ footer {
   flex-direction: row;
   align-items: center;
   background-color: black;
-  color: gold;
+  color: goldenrod;
 }
 
 @font-face {
@@ -85,10 +85,10 @@ footer {
 }
 .LogoTipa {
   width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 fieldset {
@@ -97,6 +97,16 @@ fieldset {
   background-color: black;
   color: gold;
   border-color: gold;
+}
+
+.Titulo {
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+
+.tipaFondo {
+  align-content: center;
 }
 
 form {
@@ -138,5 +148,11 @@ form #boton:hover {
 }
 
 .tipero {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: gold;
 }/*# sourceMappingURL=Styles.css.map */
