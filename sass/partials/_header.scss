@@ -1,49 +1,30 @@
-header {
-    background-color: black;
+/* Header */
+.logo {
     display: flex;
-    gap: 20px;
-    list-style: none;
+    align-items: center;
 
-    .container_logo{
-        height: 100px;
-        width: 100px;
-        padding: 0px;
-        }    
-        
-    .menu {
-            display: flex;
-            align-items: center;
+    a {
+        img {
+            height: 50px;
+            padding-bottom: 2px;
         }
-        .navbar{
-            display:flex ;
-            align-items: center;
-            justify-content: space-around;
+    }
+}
+
+/* Barra de navegación */
+.navbar {
+    color: goldenrod;
+
+    ul {
+        li {
+            list-style: none;
+            border: 1px solid black;
             background-color: black;
-            border: 500px;
-            border-color: goldenrod;
 
-            li{
-                list-style: none;
-                border: 1px solid black;
-                background-color: black;
-                padding: 10px;
-                    a{
-                    text-decoration: none;
-                    color: gold;
-                    &:hover{
-                        color: gray;
-                        }
-                    }
-                }
-                }
-            
-            .logo{
-                width: 100%;
-                height: 100%;
+            a {
+                text-decoration: none;
+                color: gold;
             }
-                
         }
-    
-    
-
-    
+    }
+}

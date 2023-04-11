@@ -7,23 +7,28 @@
     font-family: 'Andigo';
     src: url(../Fuentes/ANDIGO.ttf);
 }
+
+body {
+    section {
+        div {
+            img {
+                display: block;
+                height: 100vh;
+                width: auto;
+                padding-top: 25px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
 /*Mobile*/
 @media screen and (max-width: 819px) {
-    body{
-            background-color: #000000;
+    body {
+        background-color: #000000;
     }
-    ul{
-        flex-direction: row;
-        text-align: center;
-    }
-    a{
-    font-size: 20px;
-    }
-    li{
-    font-size: 5px;
-    }
-    
-    }
+}
 
 
 .LogoTipa{
@@ -48,6 +53,7 @@ fieldset{
     text-align: center;
     color: gold;
     background-color: black;
+    padding: 100px;
 }
 
 .tipaFondo{
@@ -104,10 +110,6 @@ form{
 	    border-radius: 4px;
 	    box-sizing: border-box; 
         color: gold
-    }
-
-    .navbar-nav{
-        width: 100%;
     }
 
     .TiendaTipa{
