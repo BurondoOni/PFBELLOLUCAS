@@ -87,11 +87,81 @@ fieldset {
   border-color: gold;
 }
 
+main section .titulo {
+  color: gold;
+  padding-top: 8rem;
+  text-align: center;
+  text-shadow: 7px 0px 7px #000;
+}
+main section .subtitulo {
+  color: gold;
+  text-align: center;
+  text-shadow: 2px 0px 2px #000;
+  padding-bottom: 2rem;
+}
+main section form {
+  width: 500px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+main section form .titulo__form {
+  text-align: center;
+  color: gold;
+  text-shadow: 2px 0px 2px #000;
+}
+main section form input,
+main section form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+main section form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+main section form .boton {
+  background: black;
+  color: #fff;
+  padding: 20px;
+}
+main section form #boton:hover {
+  cursor: pointer;
+}
+main section form label {
+  color: #fff;
+  text-shadow: 5px 2px 5px #000;
+}
+
 .Titulo {
   text-align: center;
   color: gold;
   background-color: black;
   padding: 100px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+
+.Legend {
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+
+.contacto {
+  padding: 0%;
+  margin: 0%;
 }
 
 .tipaFondo {
@@ -104,17 +174,16 @@ form {
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 150px;
+  margin-top: 20px;
   border-radius: 10px;
 }
-form h2 {
-  color: #000;
+form .titulo__form {
   text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
+  color: gold;
+  text-shadow: 2px 0px 2px #000;
 }
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -137,7 +206,7 @@ form #boton:hover {
 }
 
 .tipero {
-  padding: 12px 20px;
+  padding: 0px 0px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
